@@ -6,7 +6,7 @@ import { apiUrl, filterData  } from "./data";
 import { useState,useEffect } from "react";
 import Spinner from "./components/Spinner";
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 
 
 const App = () => { 
