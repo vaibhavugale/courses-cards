@@ -7,7 +7,7 @@ export const Filter = ({filterCourse,setCategory,category}) => {
  
   return (
     <div className='flex flex-row justify-center mt-3 '>
-    <div className=' flex flex-row gap-6 '>
+    <div className=' flex flex-row gap-6 flex-wrap lg:flex-nowrap'>
     {
       filterCourse.map((item)=>(
         <button
